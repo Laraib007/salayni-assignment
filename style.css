@@ -413,8 +413,8 @@ body{
     font-size: 100px;
 }
 .latabt {
+    color: #8d8d8d;
     margin-top: 8.5%;
-    /* width: 55%; */
     margin-left: -3%;
 }
 .lathed {
@@ -521,7 +521,68 @@ margin-top: 26%;
 .footerrend{
     color:#E38903 ;
 }
-
+.hirediv {
+    display: inline-block;
+    width: 94%;
+    margin-left: -2%;
+    margin-top: -9%;
+}
+.hireh3{
+    font-size: 40px;
+    margin-left: 23%;
+    margin-top: 13%;
+    width: 50%;
+}
+.hirep{
+    color: #8d8d8d;
+    margin-top: 3%;
+    width: 42%;
+    margin-left: 23%;
+    font-size: 16px;
+}
+.hirebtn{
+    margin-left: 23%;
+    height: 21px;
+}
+.hibtn {
+        color: #181717;
+        border-radius: 22px;
+        background: #E38903;
+        width: 116px;
+        height: 40px;    
+        border: 2px solid #181717;
+        margin-left: 1%;
+}
+.hirbtn {
+    color: #E38903;
+    border-radius: 22px;
+    background: #181717;
+    width: 116px;
+    height: 40px;
+    border: 2px solid #E38903;
+}
+.hibtn:hover {
+    color: #E38903;
+    border-radius: 22px;
+    background: #181717;
+    width: 116px;
+    height: 40px;    
+    border: 2px solid #E38903;
+    margin-left: 1%;
+}
+.hirbtn:hover {
+color: #181717;
+border-radius: 22px;
+background: #E38903;
+width: 116px;
+height: 40px;
+border: 2px solid #181717;
+}
+.hireimg{
+    margin-left: 71%;
+    height: 269px;
+    margin-top: -37%;
+}
 
 
 @media screen and (max-width:930px){
@@ -751,6 +812,12 @@ margin-top: 26%;
 }
 }
 @media screen and (max-width: 895px){
+    .hirediv {
+        display: inline-block;
+        width: 91%;
+        margin-left: -9%;
+        margin-top: -1%;
+    }
     .myService {
         margin-top: -116%;
         margin-left: 115%;
@@ -774,8 +841,8 @@ margin-top: 26%;
         width: 64%;
     }
     .latabt {
+        color: #8d8d8d;
         margin-top: 7.5%;
-        /* width: 55%; */
         margin-left: -3%;
     }
     .lathed {
